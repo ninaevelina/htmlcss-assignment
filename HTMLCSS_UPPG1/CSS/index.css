@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100;1,200;1,300&display=swap');
+
+html, body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    margin-bottom: 50px;
+}
+header h1 {
+    font-family: Ibmplexsans Light 300 Italic;
+    font-size: 5.625vw;
+    cursor: grab;
+    
+}
+
+header h2 {
+    font-family: Ibmplexsans ExtraLight 200 Italic;
+}
+
+#h2-first, #h2-second, #h2-third {
+
+    font-family: Ibmplexsans Light 300 Italic;
+    text-align: right;
+    cursor: grab;
+}
+
+#my-navbar {
+    padding-bottom: 30px;
+   
+}
+
+.nav-item, .nav-link {
+    color: #021A1C;
+   
+    
+}
+.nav-item:hover, .nav-link:hover {
+    color: #021A1C;
+    text-decoration: underline;
+    cursor: grab;
+    
+}
+
+.banner-image img {
+    width: 100vw;
+    /*margin-left: 0;
+    margin-right: 0;
+    gap: 0;*/
+}
+
+#banner-image {
+    width: 100vw;
+    filter: grayscale(100%);
+}
+
+#content-center, #content-center-2, #content-center-3 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: right;
+}
+
+.headings {
+    font-size: 1rem;
+    font-family: Ibmplexsans Light 300 Italic;
+}
+
+article .headings:hover {
+    text-decoration: underline;
+    text-decoration: #D5F55C;
+    cursor: grab;
+}
+.headings {
+
+    text-decoration-line: underline;
+    text-decoration-color: #D5F55C;
+    text-decoration-thickness: 0.2rem;
+    cursor: grab;
+}
+
+#section-contact {
+    margin-top: 50px;
+}
+
+section .headings:hover {
+    text-decoration: underline;
+    text-decoration: #D5F55C;
+    cursor: grab;
+}
+
+#my-footer {
+    padding-top: 50px;
+}
+
+#my-footer p {
+    cursor: grab;
+}
